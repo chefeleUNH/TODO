@@ -60,3 +60,8 @@ struct TODODetailView: View {
     }
 }
 
+struct TODODetailView_Previews: PreviewProvider {
+    static var previews: some View {
+        TODODetailView(todo: TODOS(todo: "Buy milk", isComplete: "false"))
+    }
+}
