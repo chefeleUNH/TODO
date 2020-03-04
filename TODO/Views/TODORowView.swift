@@ -26,3 +26,9 @@ struct TODORowView: View {
         }
     }
 }
+
+struct TODORowView_Previews: PreviewProvider {
+    static var previews: some View {
+        TODORowView(todo: TODOS(todo: "Buy milk", isComplete: "false"))
+    }
+}
